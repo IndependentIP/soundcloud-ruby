@@ -9,8 +9,4 @@ group :test do
   gem 'webmock', '>= 1.13'
 end
 
-platforms :ruby_18 do
-  gem 'httparty', '~> 0.11.0'
-end
-
 gemspec
